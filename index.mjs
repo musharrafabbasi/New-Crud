@@ -9,6 +9,7 @@ var posts = [
   { text: "Hello, this is post 0" },
   { text: "Welcome to post 1" },
   { text: "Post number 2 here!" },
+  {text: "Post number 3 here"},
 ];
 
 app.get('/post/:id', (req, res) => {
